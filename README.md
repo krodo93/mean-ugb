@@ -19,26 +19,14 @@ systemctl start mongodb
 apt install lsb-release
 apt install nodejs
 
-apt install build-essential libssl-dev
-npm install express
+git clone git@github.com:meanjs/mean.git
 
-npm install angular
+cd mean
+
+npm install
+
+npm start
 ```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-git clone https://github.com/krodo93/mean-ugb.git
-```
-
-## Running the tests
-
-not available
-
 
 ## Authors
 
